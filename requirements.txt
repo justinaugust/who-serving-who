@@ -114,7 +114,7 @@ matplotlib==3.1.2
 mccabe==0.6.1
 mistune==0.8.4
 mkl-fft==1.0.2
-mkl-random==1.1.0
+mkl-random==1.0.1.1
 mkl-service==2.3.0
 mock==3.0.5
 more-itertools==7.2.0
