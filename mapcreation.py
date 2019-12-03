@@ -19,12 +19,14 @@ alt.themes.enable('opaque')
 # In[2]:
 
 
-host = "localhost"
-dbname = "who_serving_who"
-user = "justinaugust"
-port =  5432
+# host = "localhost"
+# dbname = "who_serving_who"
+# user = "justinaugust"
+# port =  5432
 
-engine = sal.create_engine(f'postgresql://{user}@{host}:{port}/{dbname}')
+# engine = sal.create_engine(f'postgresql://{user}@{host}:{port}/{dbname}')
+engine = sal.create_engine('postgres://jcajwqzxmfftxy:05660bb6c45b71f75b905822161c771a8a80aeb74ae4b949c1314409a35b98bc@ec2-54-225-195-3.compute-1.amazonaws.com:5432/dcqg9fqmvhc67i
+')
 
 
 # In[75]:
