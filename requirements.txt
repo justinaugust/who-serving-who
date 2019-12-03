@@ -210,7 +210,7 @@ Send2Trash==1.5.0
 Shapely==1.6.4.post2
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
-sip==4.19.18
+sip==4.19.8
 six==1.13.0
 smart-open==1.9.0
 snowballstemmer==2.0.0
