@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Who's Serving Who?</h1>
+        <p class="splash-subhead">
+                Visually finding a school for YOUR child.
+        </p>
+    </div>
+</div>
+<div class="content-wrapper">
+    <div class="content">
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">What?</h3>
+                    <p>Using data analysis and other technologies <strong>Who's Serving Who?</strong> is a tool to visuall show the achievement differences by demographic in Oakland, CA. By using state achivement data a score is constructed for other students with similar demographics to yours.</p>
+                </div>
+ 
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                        <h3 class="content-subhead">Why?</h3>
+        <p>Each year, parents in Oakland search to find "the best" school for their child. But every parent knows their child is not just like any other child.
+            Every child brings their own unique experiences, identity and self to school with them each day. And each school serves their students in a unique way based on the educational outlook and experiences of the teachers, administration and staff at the school.
+        </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <h3 class="content-subhead">How?</h3>
+        <p>To help parents find their best school, we created this tool. Using widely available data from the California Department of Education you are able to find a school that serves your student based on who they are. This tool is written in Python using PANDAS, PostgresSQL, Altair and Flask. It queries the data from the California Department of Education</p>
+        </div>
+    </div>
+                <h2 class="content-subhead">Who?</h2>
+        <p>This tool was created by <a href="http://linkedin.com/in/justinaugust">Justin August</a>. I am a former educator turned Data Scientist living in Oakland, CA.
+        I'm also a new parent and deeply invested in questions of equity in our public schools. The idea of finding a school <em>for your child</em> came to me after having several conversations with my peers, all of whom refered to the same core group of schools as their ideal schools for their child.
+    As an educator with feet in both the progressive and social justice worlds of education I know that every child doesn't receieve the same education at each school.
+My intuition was that there was a way to visually show this and help parents identify a way to find out what school might result in their preferred outcomes.</p>
+
+<h1 class="splash-head is-center"><a href="/explore" class="explore-link">Explore Oakland's Schools</a></h1>
+</div>
+{% endblock %}
+

@@ -1,0 +1,133 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head"><a href="#getmap">Find My Schools!</a></h1>
+        <p class="splash-subhead">
+        Your Child's Information - Their Best Schools
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+        <a name="getmap" class="anchor"></a>
+    <div class="content is-center">
+    <h2 class="content-head is-center">Choose the Demographics that Best Describe Yourself, Your Child or Your Student</h2>
+    <form action="/map#mymap" class="is-center">
+
+        <div class="demos">
+                <label for="school_level">School Level</label><br>
+                <select name="school_level" size="3">
+                    <option value="elementary">Elementary Schools</option>
+                    <option value="middle">Middle Schools</option>
+                    <option value="high">High Schools</option>
+                </select>
+            </div>
+        <div class="demos">
+            <label for="Gender">Gender</label><br>
+            <select name="Gender" size="2">
+                <option value="3">Male</option>
+                <option value="4">Female</option>
+            </select>
+        </div>
+
+    <div class="demos">
+    <label for="Ethnicity">Ethnicity</label><br>
+    <select name="Ethnicity" size="8">
+    <option value="74">Black or African American</option>
+
+    <option value="75">American Indian or Alaska Native</option>
+
+    <option value="76">Asian</option>
+
+    <option value="77">Filipino</option>
+
+    <option value="78">Hispanic or Latino</option>
+
+    <option value="79">Native Hawaiian / Pacific Islander</option>
+
+    <option value="80">White</option>
+
+    <option value="144">Two or more races</option>
+    </select>
+    </div>
+    <div class="demos">
+            <label for="Parent Education">Parent Education</label><br>
+            <select name="Parent Education" size="6">
+                <option value="90">Not a high school graduate</option>
+                <option value="91">High school graduate</option>
+                <option value="92">Some college (includes AA degree)</option>
+                <option value="93">College graduate</option>
+                <option value="94">Graduate school/Post graduate</option>
+                <option value="121">Declined to state</option>
+            </select>
+        </div>
+    <div class="demos">
+
+    <label for="Disability Status">Disability Status</label><br>
+    <select name="Disability Status" size="2">
+    <option value="99">Students with no reported disability</option>
+
+    <option value="128">Students with disability</option>
+    </select>
+    </div>
+    <div class="demos">
+    <label for="Economic Status">Economic Status</label><br>
+    <select name="Economic Status" size="2">
+    <option value="31">We Receive Free or Reduced Lunch</option>
+
+    <option value="111">We Do Not Receive Free or Reduced Lunch</option>
+    </select>
+    </div>
+    <div class="demos">
+    <label for="English-Language Fluency">English-Language Fluency</label><br>
+    <select name="English-Language Fluency" size="9">
+    <option value="6">Fluent English proficient and English only</option>
+
+    <option value="7">Initial fluent English proficient (IFEP)</option>
+
+    <option value="8">Reclassified fluent English proficient (RFEP)</option>
+
+    <option value="120">English learners enrolled in school in the U.S. fewer than 12 months</option>
+
+    <option value="142">English learners enrolled in school in the U.S. 12 months or more</option>
+
+    <option value="160">English learner</option>
+
+    <option value="170">Ever-ELs</option>
+
+    <option value="180">English only</option>
+
+    <option value="190">To be determined (TBD)</option>
+    </select>
+    </div>
+
+<a class="anchor" name="mymap"></a> 
+    <div class="demos">
+    <label for="Homeless Status">Homeless Status</label><br>
+    <select name="Homeless Status" size="2">
+    <option value="52">Homeless</option>
+
+    <option value="53">Not Homeless</option>
+    </select>
+    </div>
+    <div class="sub_button"><button type="submit" class="pure-button mapbutton is-center">Get My Schools</button></div>
+</form>
+       
+
+<div id="map"></div>
+<script type="text/javascript">
+  var spec = {{my_map|safe}};
+  vegaEmbed('#map', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+
+</div>
+
+
+
+
+
+{% endblock %}

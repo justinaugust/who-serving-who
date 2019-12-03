@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class="ribbon l-box-lrg pure-g map-elem">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+        <h2 class="content-head is-center"><a name="elementary"></a>Explore Oakland's Elementary Schools</h2>
+        <p>Oakland's Elementary Schools are as diverse as it's students.</p>
+        <p>By choosing from the options presented you can explore the relative achievement levels for each demographic or combination of demographics.
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 is-center">
+            <div id="elementary"></div>
+
+            <script type="text/javascript">
+              var spec = "/static/charts/elementary.json";
+              vegaEmbed('#elementary', spec).then(function(result) {
+                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+              }).catch(console.error);
+            </script>
+    </div>
+</div>
+<div class="ribbon l-box-lrg pure-g map-elem">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+        <h2 class="content-head is-center"><a name="middle"></a>Explore Oakland's Middle Schools</h2>
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 is-center">
+            <div id="middle"></div>
+
+            <script type="text/javascript">
+              var spec = "/static/charts/middle.json";
+              vegaEmbed('#middle', spec).then(function(result) {
+                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+              }).catch(console.error);
+            </script>
+    </div>
+</div>
+<div class="ribbon l-box-lrg pure-g map-elem">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+        <h2 class="content-head is-center"><a name="high"></a>Explore Oakland's High Schools</h2>
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5 is-center">
+            <div id="high"></div>
+
+            <script type="text/javascript">
+              var spec = "/static/charts/high.json";
+              vegaEmbed('#high', spec).then(function(result) {
+                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+              }).catch(console.error);
+            </script>
+    </div>
+</div>
+{% endblock %}
