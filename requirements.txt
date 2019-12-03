@@ -1,5 +1,6 @@
 absl-py==0.8.1
 alabaster==0.7.12
+alembic==1.3.1
 altair==3.2.0
 appnope==0.1.0
 arviz==0.5.1
@@ -13,13 +14,10 @@ autopep8==1.4.4
 Babel==2.7.0
 backcall==0.1.0
 backports.os==0.1.1
-backports.shutil-get-terminal-size==1.0.0
-beautifulsoup4==4.8.1
 bitarray==1.1.0
 bkcharts==0.2
 bleach==3.1.0
 blis==0.4.1
-bokeh==1.4.0
 boto==2.49.0
 boto3==1.9.196
 botocore==1.12.252
@@ -31,8 +29,6 @@ certifi==2019.9.11
 cffi==1.13.2
 cftime==1.0.4.2
 chardet==3.0.4
-Click==7.0
-click-plugins==1.1.1
 cligj==0.5.0
 cloudpickle==1.2.2
 clyent==1.2.1
@@ -47,7 +43,6 @@ dask==2.7.0
 decorator==4.4.1
 defusedxml==0.6.0
 distributed==2.7.0
-Django==2.2.6
 docutils==0.15.2
 entrypoints==0.3
 et-xmlfile==1.0.1
@@ -55,11 +50,11 @@ fastcache==1.1.0
 filelock==3.0.10
 Fiona==1.8.11
 Flask==1.1.1
-folium==0.10.0
+Flask-Migrate==2.5.2
+Flask-SQLAlchemy==2.4.1
 fsspec==0.5.2
 gast==0.2.2
 gensim==3.8.1
-geojson==2.5.0
 geopandas==0.6.1
 gevent==1.4.0
 glob2==0.7
@@ -192,12 +187,6 @@ retrying==1.3.3
 rope==0.14.0
 rsa==4.0
 ruamel-yaml==0.15.71
-s3transfer==0.2.1
-scikit-image==0.16.2
-scikit-learn==0.21.3
-scikit-surprise==1.1.0
-scipy==1.3.1
-seaborn==0.9.0
 selenium==3.141.0
 Send2Trash==1.5.0
 Shapely==1.6.4.post2
@@ -239,9 +228,7 @@ tqdm==4.38.0
 traitlets==4.3.3
 unicodecsv==0.14.1
 urllib3==1.25.7
-uszipcode==0.2.4
 vega==2.6.0
-vega-datasets==0.7.0
 vincent==0.4.4
 wasabi==0.4.0
 wcwidth==0.1.7
