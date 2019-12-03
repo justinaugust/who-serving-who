@@ -8,7 +8,6 @@ import pandas as pd
 import sqlalchemy as sal
 import numpy as np
 import altair as alt
-from vega_datasets import data
 from altair.expr import datum
 import json
 import time
