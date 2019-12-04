@@ -6,11 +6,11 @@ _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
 1. [Context](#Context)
 2. [Initial Proposal & Check In Updates](#Initial-Proposal)
 3. [Data Sources, Collection & Storage](#Data)
-4. [Intersectional Analysis & Equity Scoring](#Intersectional-Analysis-&amp;-Equity-Scoring)
+4. [Intersectional Analysis & Equity Scoring](#Intersectional-Analysis-Equity-Scoring)
 5. [Visualization](#Visualization)
 6. [Web Access](#Web-Access)
 7. [Future Plans](#Future-Plans)
-8. [Media & Demonstration Links](#Media-&amp;-Demonstration-Links)
+8. [Media & Demonstration Links](#Media-Demonstration-Links)
 
 <hr style="clear: both">
 
@@ -71,7 +71,7 @@ Data was read in from csv files and then the small amount of cleaning was comple
 |caaspp_2019|Main table with results for each entity by test, subgroup and grade|
 
 
-## Intersectional Analysis & Equity Scoring
+## Intersectional Analysis Equity Scoring
 
 ### Initial Plan
 
@@ -162,6 +162,6 @@ Currently in contact with Studio Pathways and Educate78, two Oakland-based Educa
 - Commute Calculation
 
 
-## Media & Demonstration Links
+## Media Demonstration Links
 - [Google Slides](https://docs.google.com/presentation/d/1DCa1Db2Y9ZnPJ1c0GazXoVGmBHjDkCz7hdzOmm3LE64/edit?usp=sharing)
 - [App Website](https://who-serving-who.herokuapp.com/)
