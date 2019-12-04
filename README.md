@@ -6,11 +6,11 @@ _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
 1. [Context](#Context)
 2. [Initial Proposal & Check In Updates](#Initial-Proposal)
 3. [Data Sources, Collection & Storage](#Data)
-4. [Intersectional Analysis & Equity Scoring](#Intersectional-Analysis-&-Equity-Scoring)
+4. [Intersectional Analysis & Equity Scoring](#Intersectional-Analysis-&amp;-Equity-Scoring)
 5. [Visualization](#Visualization)
 6. [Web Access](#Web-Access)
 7. [Future Plans](#Future-Plans)
-8. [Media & Demonstration Links](#Media-&-Demonstration-Links)
+8. [Media & Demonstration Links](#Media-&amp;-Demonstration-Links)
 
 <hr style="clear: both">
 
