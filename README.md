@@ -60,6 +60,8 @@ This information used for details regarding school location.
 ### Storage
 Data was read in from csv files and then the small amount of cleaning was completed before importing them into a Postgres SQL DB
 #### PostgresSQL Structure
+|Name|Description|
+|---|---|
 |who serving who|DB containing tables|
 |caaspp metadata|Table containing metadata of schools such as addresses, lat/long, charter status, etc|
 |caaspp_2019 entities| Table describing entities with results (districts, schools)|
