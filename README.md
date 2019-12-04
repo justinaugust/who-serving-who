@@ -69,14 +69,10 @@ Heroku
 ### Moving Slow & Not Breaking Things
 |Pros|Cons|
 |---|---|
-|Increased access of information to parents
-Matching students to schools
-Uses an Intersectional Identity first approach
-|Increased segregation of students
-Justification for school closures
-Does not address underlying issues of different achievement levels
-Currently based solely on high stakes testing
- |
+|Increased access of information to parents |Increased segregation of students|
+|Matching students to schools | Justification for school closures|
+|Uses an Intersectional Identity first approach | Does not address underlying issues of different achievement levels|
+| |Currently based solely on high stakes testing |
 
 ### Collaborations
 Currently in contact with Studio Pathways and Educate78, two Oakland-based Education organizations for guidance on improvements, deployment and potential use of this app.
