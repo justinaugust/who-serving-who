@@ -13,7 +13,9 @@ _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
 8. [Media & Demonstration Links](#Media-&-Demonstration-Links)
 
 <hr style="clear: both">
+
 ## Context
+
 Oakland Schools in 2019 face many challenges and thus so do parents and students when deciding where to send their child. Due to the low overall achievement of Oakland's schools, each student is eligible to request placement in another school. Historically the "desirable" schools have been located in predominately affluent, whiter areas of the city with those students' outcomes skewing the overall results.
 
 How and where should parents of color look to find a school that has high student outcomes for children like their own?
@@ -70,26 +72,32 @@ Data was read in from csv files and then the small amount of cleaning was comple
 
 
 ## Intersectional Analysis & Equity Scoring
+
 ### Initial Plan
+
 - Balanced Score based on impact of demographic on outcome
 - Example: being a girl raises average reading score by 10% but being White raises it by 20%
 
 #### Not Currently Pursued
+
 - Assumption of equal distribution creates false confidence in outcomes
 - Per-student scoring and demographic information needed to accurately calculate
 
 ### Current Iteration
+
 - Averages proficiency levels of all grades in school level (ie: 3rd, 4th, 5th in Elementary)
 - Averages proficiency levels of demographics to create “Equity Score" (ie: 50% of girls and 60% of White students = 55% of white girls)
 Scale 0-100
 
 ## Visualization
+
 [Altair](https://altair-viz.github.io/)
 - Altair provides a wrapper to use Python to create [Vega](https://vega.github.io/vega/) visualizations
 - Allows for interactive and complex visualizations with transformations of data
 - Embeddable in web pages and apps
 
 ### School Level Maps
+
 <img src="static/img/school_level.png" width="300" style="float: right;">
 
 - Show performance in the whole district
@@ -103,6 +111,7 @@ Scale 0-100
 
 
 ### Intersectional Identity Maps
+
 <img src="static/img/intersectional.png" width="300" style="float: right;">
 
 - Allow you to customize it “for you”
@@ -114,10 +123,8 @@ Scale 0-100
 - Shows “Equity Score”
 - Shareable by links
 
-
-<hr style="clear: both">
 ## Web Access
-<img src="static/img/wsw_ss.png" style="float: right" width="200" align="center">
+
 
 - [Flask](https://www.fullstackpython.com/flask.html)
 	- By using Flask to locally demo and edit my app, I was able to get it to be fully interactive.
@@ -128,6 +135,7 @@ Scale 0-100
 
 
 ## Future Plans
+
 ### Moving Slow & Not Breaking Things
 |Pros|Cons|
 |---|---|
