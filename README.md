@@ -73,11 +73,11 @@ Data was read in from csv files and then the small amount of cleaning was comple
 - Balanced Score based on impact of demographic on outcome
 - Example: being a girl raises average reading score by 10% but being White raises it by 20%
 
-####Not Currently Pursued
+#### Not Currently Pursued
 - Assumption of equal distribution creates false confidence in outcomes
 - Per-student scoring and demographic information needed to accurately calculate
 
-###Current Iteration
+### Current Iteration
 - Averages proficiency levels of all grades in school level (ie: 3rd, 4th, 5th in Elementary)
 - Averages proficiency levels of demographics to create “Equity Score" (ie: 50% of girls and 60% of White students = 55% of white girls)
 Scale 0-100
