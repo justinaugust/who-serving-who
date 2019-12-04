@@ -1,4 +1,3 @@
-<img src="static/img/oakline.png" width="300" style="float:left;">
 # Who's Serving Who?
 ## General Assembly DSI Capstone Project
 _Justin August_, General Assembly Data Science Immersive Fall 2019, SF Campus
