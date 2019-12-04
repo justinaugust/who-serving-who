@@ -1,2 +1,4 @@
 data/archives/*
 .DS*
+__pycache__
+capstone.code-workspace

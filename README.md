@@ -1,4 +1,9 @@
 # Who's Serving Who?
+## Table of Contents
+1. Initial Proposal & Check In Updates
+2. Context
+3. Pipeline
+4. 
 
 ## Initial Proposal
 |Project Name|Goal / Outcome|Audience|Metrics|Data Source|Pros|Cons|Reasonable|
@@ -7,9 +12,8 @@
 
 ## Update for Check-In 2
 
-## This Iteration
-_focusing on Oakland_
-### Definites
+### This Iteration
+#### Definites
 - Outcoming correlations on CAASSP by:
     - Ethnicity
     - Race
@@ -18,20 +22,20 @@ _focusing on Oakland_
     - EL Proficiency
 - Cluster Markers on Folium/Leaflet/Mapbox map
 
-### Questions
+#### Questions
 - Would a recommender system based on demographic data work well here?
 
 
-### Stretch Goals
+#### Stretch Goals
 - Trend in outcomes over time
 - Mobile Friendly
 
-### Data
+#### Data
 - Test Data Gathered - 2015-2019
 - Other data sources to gather:
   - School Lat/Long
   - School catchment shapes
-### Updated Goals:
+#### Updated Goals:
 - Interactive Map 
 - Enter your child's demo info, get a cluster map
 - Clusters:
@@ -48,6 +52,6 @@ _focusing on Oakland_
 - Art standards
 - Relationship ratings
 - Teacher tenure
-- 
+  
 
   
