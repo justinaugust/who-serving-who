@@ -11,7 +11,7 @@ import altair as alt
 from altair.expr import datum
 import json
 import time
-alt.renderers.enable('notebook')
+# alt.renderers.enable('notebook')
 alt.data_transformers.disable_max_rows()
 alt.themes.enable('opaque')
 
